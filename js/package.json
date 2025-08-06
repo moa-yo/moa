@@ -1,9 +1,17 @@
 {
-  "name": "my-turborepo",
-  "description": "A barebones Turborepo example for working with Task Graphs.",
+  "name": "moa",
+  "description": "Figma-style Live Collaboration Editor",
   "private": true,
   "packageManager": "pnpm@8.15.6",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "clean": "turbo run clean",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check"
+  },
   "devDependencies": {
-    "turbo": "^2.5.3"
+    "turbo": "^2.5.3",
+    "typescript": "^5.0.0"
   }
 }
